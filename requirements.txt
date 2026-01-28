@@ -1,0 +1,15 @@
+# Framework Web e Servidor ASGI
+fastapi==0.110.0
+uvicorn==0.27.1
+
+# Processamento de PDF
+pypdf==4.1.0
+
+# Necessário para FastAPI processar uploads de arquivos (multipart/form-data)
+python-multipart==0.0.9
+
+# Gerenciamento de buffers e tipos (opcional para algumas versões de Python, mas bom ter)
+typing-extensions==4.9.0
+
+# Versão compatível com FastAPI/Starlette TestClient
+httpx==0.27.0
